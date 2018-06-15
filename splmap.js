@@ -18,8 +18,7 @@
 		fontsize: 15,
 		maxsize: 6,
 		fontcolor: "#999",
-		isshow: false,
-		anonymous: false
+		isshow: false
 	};
 
 	var _extends = Object.assign || function(target) {
