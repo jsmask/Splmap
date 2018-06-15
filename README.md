@@ -29,6 +29,7 @@ var _data=[{
 &nbsp;&nbsp;&nbsp;&nbsp; 		bgsrc:imgsrc,
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp; 		anonymous: false
+</br>
 }]
 </br>
 var sqlmap = new Sqlmap({
@@ -59,11 +60,12 @@ var sqlmap = new Sqlmap({
 		</br>
 		&nbsp;&nbsp;&nbsp;&nbsp; 		isshow: false          //生成画布是否显示，默认false
 </br>     
-}，function(data){
+&nbsp;&nbsp 	}，function(data){
 </br>
-console.log(data); &nbsp;&nbsp;&nbsp;&nbsp;//[base64,base64,base64]
+&nbsp;&nbsp;&nbsp;&nbsp; 		console.log(data); &nbsp;&nbsp;&nbsp;&nbsp;//[base64,base64,base64]
 </br>
 })
 </br>
 <h4>预览图片:</h4>
-https://github.com/jsmask/Splmap/blob/master/exhibition.png
+<img src="https://github.com/jsmask/Splmap/blob/master/exhibition.png" />
+
