@@ -6,20 +6,18 @@
 var _btnimg = imgsrc;
 var _loaddata = [_btnimg,imgsrc,imgsrc,imgsrc];
 var _data=[{
-type:"text",          //图片类型分为['text','img','video']
-txt:"Hello World!"    //文字图片内容
-</br>
+	type:"text",          //图片类型分为['text','img','video']
+	txt:"Hello World!"    //文字图片内容
 },{
-type:"img",
-bgsrc:imgsrc,        //背景底图
-anonymous: false     //是否跨域，默认为false
+	type:"img",
+	bgsrc:imgsrc,        //背景底图
+	anonymous: false     //是否跨域，默认为false
 },{
 	type:"video",
 	bgsrc:imgsrc,
 	anonymous: false
 }]
-var sqlmap = new Sqlmap({
-</br>	
+var sqlmap = new Sqlmap({	
         loaddata: _loaddata,   //预加载的图片数组
 	width: 120,    //生成图片宽，默认为120
 	height: 120,   //生成图片高，默认为120
@@ -34,7 +32,7 @@ var sqlmap = new Sqlmap({
 	fontcolor: "#999",      //文字颜色，默认为#999
 	isshow: false          //生成画布是否显示，默认false
  },function(data){
-   console.log(data); &nbsp;&nbsp;&nbsp;&nbsp;//[base64,base64,base64]
+   console.log(data); //[base64,base64,base64]
 })
 ```
 ## 预览图片:
